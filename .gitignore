@@ -1,3 +1,5 @@
 .idea
 session-3/solution
 
+*.DS_Store
+session-4/data
