@@ -1,0 +1,12 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+    <head>
+        <title>AIDL Sentiment Analysis Result</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sentiment Analysis Result</h1>
+            The prediction is {{result}}. The review is {{'positive' if result > 0.5 else 'negative'}}.
+        </div>
+    </body>
+</html>

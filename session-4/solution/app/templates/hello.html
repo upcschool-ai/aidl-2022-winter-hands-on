@@ -1,0 +1,16 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+    <head>
+        <title>AIDL Sentiment Analysis App</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>AIDL Sentiment Analysis App!</h1>
+            <form action="/predict" method="post">
+                <label for="review:">Your review:</label><br>
+                <textarea class="input" rows="10" cols="10" id="review" name="review" placeholder="Your review here."></textarea>
+                <input type="submit" value="Predict">
+            </form> 
+        </div>
+    </body>
+</html>
