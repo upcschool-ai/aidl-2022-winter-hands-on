@@ -6,5 +6,4 @@ ports:
 - port: 8888
   onOpen: open-browser
 tasks:
-  - command: pyenv global 3.8.2 &&
-            chmod +x envconfig.sh 
+  - command: pyenv global 3.8.2 && chmod +x envconfig.sh && ./envconfig.sh

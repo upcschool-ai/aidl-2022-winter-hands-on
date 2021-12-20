@@ -9,6 +9,6 @@ export PATH=/workspace/conda/arcw/bin:$PATH &&
 source ~/.bashrc
 export SHELL=/bin/bash
 
-conda install -y pytorch torchvision torchaudio cpuonly -c pytorch
+conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
 
 echo Done...
