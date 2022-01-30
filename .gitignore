@@ -1,4 +1,6 @@
 .idea
 *.DS_Store
+
 session-4/data
 session-6/solution
+session-7/5-distributed-training/data
